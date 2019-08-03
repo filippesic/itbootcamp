@@ -1,0 +1,63 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        .itemh {
+            grid-area: header;
+        }
+
+        .itemn {
+            grid-area: navigation;
+        }
+
+        .itemm {
+            grid-area: main;
+        }
+
+        .itemf {
+            grid-area: footer;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-areas:
+                'header header header header'
+                'main navigation navigation navigation'
+                'footer footer footer footer';
+            grid-gap: 10px;
+            background-color: saddlebrown;
+            padding: 10px;
+        }
+
+        .grid-container>div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+
+            .grid-item {
+                background-color: rgba(255, 255, 255, 0.8);
+                border: 1px solid rgba(0, 0, 0, 0.8);
+                padding: 20px;
+                font-size: 30px;
+                text-align: center;
+            }
+    </style>
+
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="itemh">Header</div>
+        <div class="itemn">Navigation</div>
+        <div class="itemm">Main</div>
+        <div class="itemf">Footer</div>
+    </div>
+</body>
+
+</html>

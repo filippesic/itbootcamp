@@ -1,0 +1,84 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+img {
+    margin-left: 1%;
+}
+
+h2,
+p {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+/*iframe {
+    margin-left: 3%;
+}*/
+
+video {
+    margin-left: 2%;
+    margin-top: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: circle;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#tim {
+    width: 60%;
+    height: auto;
+}
+
+ul {
+    margin-top: 30%;
+}
+
+h2 {
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
+
+.team {
+    display: flex;
+}
+
+iframe {
+    margin-left: 1%
+}
+
+.small {
+    width: 90%;
+    height: auto;
+}
+
+
+td {
+    text-align: center;
+}
+
+#cov {
+    margin-top: 3em;
+    width: 95%;
+    height: auto;
+}
+
+.links {
+    margin-top: 1em;
+
+}
+
+#comp {
+    width: 40%;
+    margin-bottom: 1em;
+    margin-left: 30%;
+}

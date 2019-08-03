@@ -1,0 +1,94 @@
+img {
+    padding: 0;
+    margin: 0;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    font-size: 1.2em;
+}
+
+td {
+    text-align: center; 
+}
+
+caption {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+caption:hover {
+    color: orange;
+}
+
+ul li {
+    list-style-type: none;
+    width: 100%;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+}
+
+
+
+.nav a:link {
+    width: 5em;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 2em;
+}
+
+.nav a:hover {
+    background-color: yellow;
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+
+.kurs {
+    list-style-type: circle;
+}
+
+.gr {
+    color: green;
+}
+
+h1 {
+    text-align: center;
+}
+
+ol {
+    margin-top: 3em;
+}
+
+.nav {
+    width: 50%;
+    text-align: center; 
+}
+
+.or {
+    color: orange;
+}
+
+#mail {
+    margin-left: 45%;
+    border-color: darkorange;
+}
+
+.para {
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.narr {
+    margin-left: 1em;
+    margin-right: 1em;
+}

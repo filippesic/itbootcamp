@@ -1,0 +1,112 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Zadatak 2</title>
+    <style>
+        form {
+            display: block;
+        }
+        
+        label {
+            display: inline-block;
+            width: 10%;
+            margin-bottom: 0.3em;
+        }
+        
+        .pol {
+            display: block;
+        }
+        /*#pol label {
+            margin-left: 7em;
+        }*/
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>
+                Validaciona Forma
+            </legend>
+            <div>
+                <label for=""> Ime</label>
+                <input type="text">
+
+            </div>
+            <div>
+                <label for=""> Username</label>
+                <input type="text">
+
+            </div>
+            <div>
+                <label for=""> Lozinka</label>
+                <input type="password">
+
+            </div>
+            <div>
+                <label for=""> Ponovo ukucajte lozinku</label>
+                <input type="password">
+
+            </div>
+            <div>
+                <label for=""> Odaberite Pol:</label><br>
+                <div class="pol">
+                    <input type="radio" value="n" name="pol"><label for="">Neodredjen</label>
+                </div>
+                <div class="pol">
+                    <input type="radio" value="n" name="pol"> <label for="">Zenski</label>
+                </div>
+                <div class="pol">
+                    <input type="radio" value="n" name="pol"> <label for="">Muski</label>
+                </div>
+
+            </div>
+            <div>
+                <label for="">Vestina programiranja</label>
+                <input type="checkbox" value="n"> JAVA
+                <input type="checkbox" value="n"> Android
+                <input type="checkbox" value="n"> Ruby
+                <input type="checkbox" value="n"> .Net
+            </div>
+            <div>
+                <label for="">Broj telefona</label>
+                <input type="number">
+            </div>
+            <div>
+                <label for="">E-Mail</label>
+                <input type="email">
+            </div>
+            <div>
+                <label for="">Odaberite fakultet:</label>
+                <select name="faks">
+                    <option value="number">Bez fakulteta</option>
+                    <option value="n">Metropolitan</option>
+                    <option value="n">El.Fak.Nis</option>
+                    <option value="n">Visa Tehnicka Skola Nis</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="">Aussie greet</label>
+                <input type="button" value="Click to here to hear Aussie" onclick="alert('Oi m8')">
+            </div>
+            <div>
+                <label for="">Reset</label>
+                <input type="reset" value="RESET">
+            </div>
+            <div>
+                <label for="">Koju muziku slusas</label>
+                <textarea name="" id="" cols="22" rows="2"></textarea>
+            </div>
+            <div>
+                <label for="">Posalji</label>
+                <input type="submit">
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>

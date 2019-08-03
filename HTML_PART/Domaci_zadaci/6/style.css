@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: 'Cabin', 'Arial', sans-serif;  
+}
+
+
+
+:placeholder-shown {
+    font-family: 'Cabin', 'Arial', sans-serif;
+}
+
+select {
+    font-family: 'Cabin', 'Arial', sans-serif;
+}
+.row {
+  display: block;
+  width: 100%;
+}
+
+label,
+input,
+textarea,
+select {
+  display: block;
+  width: 100%;
+  margin: 3 3 3 3;
+}
+
+input,
+textarea,
+select {
+  border: 2px solid darkgray;
+  border-radius: 3px;
+  padding: 3;
+}
+
+.ico {
+  background: url(zoom2.png) no-repeat scroll 3px 3px;
+  padding-left: 30px;
+  background-size: 20px;
+  background-color: white;
+  height: 30px;
+}
+
+.btn input {
+    height: 2.5em;
+    background-color: green;
+    border: green;
+    color: white;
+    font-size: 1em;
+    font-family: 'Cabin', 'Arial', sans-serif;
+}
+
+@media only screen and (min-width: 600px) {
+    [class*="col-"] {
+        float: left;
+    }
+
+    .btn {
+        float: right;
+    }
+
+    .btn:hover {
+        opacity: .8;
+    }
+
+    input:hover, textarea:hover, select:hover {
+        opacity: .7;
+    }
+
+
+    /* COL druzina :) */
+
+    .col-1 {
+        width: 8.33%;
+    }
+    .col-2 {
+        width: 16.66%;
+    }
+    .col-3 {
+        width: 24.99%;
+    }
+    .col-4 {
+        width: 33.32%;
+    }
+    .col-5 {
+        width: 41.65%;
+    }
+    .col-6 {
+        width: 49.98%;
+    }
+    .col-7 {
+        width: 58.31%;
+    }
+    .col-8 {
+        width: 66.64%;
+    }
+    .col-9 {
+        width: 74.97%;
+    }
+    .col-10 {
+        width: 83.3%
+    }
+    .col-11 {
+        width: 91.63%;
+    }
+    .col-12 {
+        width: 100%;
+    }
+}

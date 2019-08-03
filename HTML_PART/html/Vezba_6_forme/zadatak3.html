@@ -1,0 +1,77 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forme</title>
+    <style>
+        form {
+            width: 30%;
+        }
+        
+        label {
+            display: inline-block;
+            width: 20%;
+            margin-bottom: 0.3em;
+        }
+        
+        .prvi input {
+            background-color: blue;
+        }
+        
+        fieldset.prvi {
+            background-color: saddlebrown;
+            color: red;
+            border: 2px solid yellow;
+        }
+        
+        .drugi input {
+            background-color: lightcoral;
+        }
+        
+        fieldset.drugi {
+            background-color: aqua;
+            color: rebeccapurple;
+            border: 2px dashed darkcyan;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+
+        <fieldset class="prvi">
+            <legend>Prvi</legend>
+            <div>
+                <label for="">Ime</label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="">Prezime</label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="">Lozinka</label>
+                <input type="password">
+            </div>
+        </fieldset>
+        <fieldset class="drugi">
+            <legend>Drugi</legend>
+            <div>
+                <label for="">Ime</label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="">Prezime</label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="">Lozinka</label>
+                <input type="password">
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>

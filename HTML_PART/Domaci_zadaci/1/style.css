@@ -1,0 +1,56 @@
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'Quicksand', sans-serif;
+        }
+        
+        .logo {
+            margin-left: 20%;
+        }
+        
+        h2 {
+            width: 63%;
+            border-left: 6px solid yellow;
+            background-color: darkgray;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding-left: 1em;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        button {
+            display: inline;
+            margin-left: 57%;
+            background-color: yellow;
+            border: 0;
+            text-align: center;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            font-size: 1em;
+            color: white;
+        }
+        
+        a {
+            text-decoration: none;
+            color: red;
+            font-family: 'Quicksand', sans-serif;
+            font-weight: bold;
+        }
+        
+        address {
+            margin-left: 13%;
+            display: inline;
+        }
+        
+        span {
+            color: yellow;
+            background-color: gray;
+            padding: 0em 0.2em;
+            font-weight: bold;
+        }

@@ -1,0 +1,23 @@
+body {
+    font-family: 'Russo One', 'Verdana', sans-serif;
+}
+#drugi {
+    /*bez toga(display:inline) pojavljuje se horizontalni skrol,
+    pretpostavljam zato sto je p tag
+    po defaultu block*/
+    display: inline;
+    position: relative;
+    left: 100px;
+}
+
+#treci {
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+}
+
+#cetvrti {
+    position: fixed;
+    top: 30px;
+    right: 5px;
+}

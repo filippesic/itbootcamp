@@ -1,0 +1,117 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', 'Georgia'sans-serif;
+}
+
+.topbar {
+    position: fixed;
+    top: -15px;
+    width: 100%;
+    height: 40px;
+    z-index: 999;
+}
+
+div ul {
+    top: 40px;
+    left: 10px;
+    background-color: #090909;
+    padding: 0;
+    font-size: 15px;
+    color: #3366cc;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+div ul a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    /*padding: 7px 0px;*/
+}
+
+div ul a:hover {
+    font-size: 18px;
+    background-color: #e3ebf8;
+    color: black;
+}
+
+div ul a:active {
+    border-top: 3px solid #1a54e1;
+    color: #363636;
+    font-weight: bold;
+}
+
+div ul li {
+    float: left;
+    width: 24.8%;
+    text-align: center;
+    border-left: 2px solid #ba3dea;
+    border-top: 1px solid #ba3dea;
+}
+
+.bottombar {
+    position: fixed;
+    bottom: 15px;
+    width: 100%;
+    height: 40px;
+}
+
+.bottombar ul {
+    list-style-type: none;
+    background-color: #8080cc;
+    padding: 0;
+    font-size: 15px;
+    color: #3366cc;
+    overflow: hidden;
+    z-index: 999;
+}
+
+
+/*h1 {
+    margin-top: 4%;
+    text-align: center;
+}*/
+
+.rest_page {
+    position: absolute;
+    top: 30px;
+    padding: 0 10 50 10;
+    width: 100%;
+    background-color: #EECBAD;
+}
+
+.picture_panel {
+    text-align: center;
+}
+
+.picture_panel img {
+    width: 140px;
+    height: 120px;
+}
+
+.col {
+    float: left;
+    width: 30%;
+}
+
+.middle {
+    border-left: 2px solid #bad3ea;
+    border-right: 2px solid #ba3dea;
+    padding: 0 5px;
+}
+
+.left-panel {
+    float: left;
+    width: 30%;
+    clear: left;
+    /*none left right both*/
+}
+
+.right-panel {
+    float: right;
+    width: 65%;
+    clear: right;
+    padding-right: 20px;
+}

@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    height: 200px;
+}
+
+/*.links {
+    text-align: center;
+}
+*/
+
+table {
+    border: red;
+    margin: 2%;
+    width: 50%;
+}
+
+table td {
+    text-align: center;
+}
+
+caption {
+    font-size: 2em;
+}
+
+h2 {
+    text-align: center;
+}
+
+.resp {
+    overflow-x: auto;
+}

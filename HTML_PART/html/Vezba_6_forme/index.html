@@ -1,0 +1,99 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forme</title>
+    <style>
+        form {
+            display: block;
+        }
+        
+        label {
+            display: inline-block;
+            width: 10%;
+            margin-bottom: 0.3em;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>
+                Forma
+            </legend>
+            <div>
+                <label for="">Ime</label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="">Lozinka</label>
+                <input type="password">
+            </div>
+
+            <div>
+                <label for="">Pretraga</label>
+                <input type="search">
+            </div>
+
+            <div>
+                <label for="">URL adresa</label>
+                <input type="URL">
+            </div>
+
+            <div>
+                <label for="">E-Mail</label>
+                <input type="email">
+            </div>
+
+            <div>
+                <label for="">Datum:</label>
+                <input type="date" min="2010-01-01" max="2019-12-31" step="2">
+            </div>
+            <div>
+                <label for="">Vreme</label>
+                <input type="time">
+            </div>
+            <div>
+                <label for="">Unos brojeva</label>
+                <input type="number">
+            </div>
+
+            <div>
+                <label for="">Unos brojeva 2</label>
+                <input type="number" min="13" max="90" step="5">
+            </div>
+
+            <div>
+                <label for="">Odaberite pol:</label>
+                <input type="radio" value="n" name="pol"> Neopredeljen
+                <input type="radio" value="n" name="pol"> Muski
+                <input type="radio" value="n" name="pol"> Zenski
+            </div>
+            <div>
+                <label for="">Odaberite kurs:</label>
+                <input type="checkbox" value="n" name="pol"> HTML
+                <input type="checkbox" value="n" name="pol"> CSS
+                <input type="checkbox" value="n" name="pol"> JS
+                <input type="checkbox" value="n" name="pol"> PHP
+            </div>
+
+            <div>
+                <label for="">Odaberite boju:</label>
+                <input type="color">
+            </div>
+
+            <div>
+                <label for="">Odaberite fajl:</label>
+                <input type="file">
+            </div>
+
+            <div>
+                <label for="">Posalji</label>
+                <input type="submit">
+            </div>
+        </fieldset>
+    </form>
+</body>

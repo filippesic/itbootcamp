@@ -1,0 +1,124 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+    }
+    
+    [class*="col-"] {
+        float: left;
+        width: 100%;
+        padding: 0;
+        border: 1px solid black;
+    }
+    
+    [class*="col-"] img {
+        width: 100%;
+    }
+    
+    [class*="col-"]:hover img {
+        opacity: 0.8;
+    }
+    
+    .navbar {
+        background-color: #333;
+        margin-bottom: 10px;
+    }
+    
+    .navbar ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+    }
+    
+    .navbar li {
+        display: block;
+    }
+    
+    .navbar a {
+        display: block;
+        text-decoration: none;
+        padding: 14 20 14 20;
+        color: white;
+        text-align: center;
+    }
+    
+    .navbar a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    
+    .row::after,
+    .row::before {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .row {
+        display: block;
+        width: 100%;
+    }
+    
+    label,
+    input,
+    textarea,
+    #sub {
+        margin: 0;
+        padding: 0;
+    }
+    
+    @media only screen and (min-width: 600px) {
+        .navbar li {
+            float: left;
+        }
+        [class*="col-"] {
+            float: left;
+            padding: 15px;
+        }
+        .col-1 {
+            width: 8.33%;
+        }
+        .col-2 {
+            width: 16.66%;
+        }
+        .col-3 {
+            width: 24.99%;
+        }
+        .col-4 {
+            width: 33.32%;
+        }
+        .col-5 {
+            width: 41.65%;
+        }
+        .col-6 {
+            width: 49.98%;
+        }
+        .col-7 {
+            width: 58.31%;
+        }
+        .col-8 {
+            width: 66.64%;
+        }
+        .col-9 {
+            width: 74.97%;
+        }
+        .col-10 {
+            width: 83.3%
+        }
+        .col-11 {
+            width: 91.63%;
+        }
+        .col-12 {
+            width: 100%;
+            /*99.96*/
+        }
+        /*
+opsti oblik selektora [attr]="vrednost"
+[attr*="vrednost"] svi el. rednost atr. sadrzi zad.vr. (ne cela rec) "vr" => "avrd"
+[atr~="vrednost"] svi el. vrednost atr. sadrzi zad. vr. (cela rec) "vr" => "vr"
+
+*/
+    }

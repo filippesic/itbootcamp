@@ -1,0 +1,72 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rajdhani&display=swap" rel="stylesheet">
+    <title>Domaci Zadatak 5</title>
+</head>
+
+<body>
+    <form>
+        <fieldset class="prvi">
+            <legend>Detalji ulogovanja</legend>
+            <div>
+                <label for="">Ime:</label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="">E-Mail:</label>
+                <input type="email">
+            </div>
+            <div>
+                <label for="">Lozinka:</label>
+                <input type="password" name="" id="">
+            </div>
+        </fieldset>
+        <fieldset class="drugi">
+            <legend>Vase povratne informacije</legend>
+            <label for=""><b>Molimo vas izaberite sve emocije koje se odnose na vas:</b></label>
+            <div class="vert"><label for="">Besan</label><input type="checkbox"></div>
+            <div class="vert"><label for="">Tuzan</label><input type="checkbox"></div>
+            <div class="vert"><label for="">Srecan</label><input type="checkbox"></div>
+            <div class="vert"><label for="">Ambivalentan</label><input type="checkbox"></div>
+            <div class="vert"><label for="">Depresivan</label><input type="checkbox"></div>
+            <div class="vert"><label for="">Anksiozan</label><input type="checkbox" checked></div>
+
+            <div>
+                <label for=""><b>Koliko ste zadovoljni sa nasom uslugom?</b></label>
+                <div class="vert"><label for="">Hah, podrazumeva se, prezadovoljan! :)</label><input type="radio"></div>
+                <div class="vert"><label for="">Veoma zadovoljan</label><input type="radio"></div>
+                <div class="vert"><label for="">Zadovoljan</label><input type="radio"></div>
+                <div class="vert"><label for="">Ne zanima me</label><input type="radio"></div>
+                <div class="vert"><label for="">Nezadovoljan</label><input type="radio"></div>
+                <div class="vert"><label for="">Veoma nezadovoljan</label><input type="radio"></div>
+            </div>
+            <label for="">Dodatni komentar:</label>
+            <textarea name="" id="" cols="30" rows="3"></textarea>
+        </fieldset>
+        <fieldset class="treci">
+            <div><label for="">ID/BIO Fotografija:</label><input type="file"></div>
+            <div>
+                <label for="">Posecene lokacije:</label>
+                <select name="" id="">
+                    <option disabled selected value style="display:none"> - Izaberite opciju - </option>
+                    <option value="">Nemacka</option>
+                    <option value="">Rusija</option>
+                    <option value="">Kina</option>
+                    <option value="">Italija</option>
+                    <option value="">Australija</option>
+                </select>
+            </div>
+            <div class="vert2" id="dugm">
+                <input type="submit" value="Submit">
+                <input type="reset" name="" id="">
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>

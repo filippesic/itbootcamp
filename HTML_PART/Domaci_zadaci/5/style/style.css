@@ -1,0 +1,84 @@
+body {
+    font-family: 'Rajdhani', 'Arial', sans-serif;
+    font-size: 1.3em;
+}
+
+body,
+input,
+input,
+textarea {
+    background-color: lightgray;
+}
+
+form {
+    width: 60%;
+    margin-left: 20%;
+}
+
+fieldset.prvi label {
+    display: inline-block;
+    width: 10%;
+    margin-left: 5%;
+}
+
+.prvi input {
+    margin-top: 0.2em;
+}
+
+fieldset.prvi,
+fieldset.drugi {
+    border: 3px solid rgb(114, 114, 114);
+}
+
+fieldset.drugi label {
+    margin-left: 10%;
+}
+
+.vert {
+    display: block;
+}
+
+.vert label {
+    display: inline-block;
+    width: 20%;
+    margin-top: 0.3em;
+    margin-left: 10em;
+    margin-bottom: 1em;
+}
+
+.drugi b {
+    margin-left: -5%;
+    font-style: italic;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+.treci label {
+    display: inline-block;
+    width: 23%;
+    margin-left: 5%;
+    margin-top: 1em;
+}
+
+fieldset.treci {
+    border: 0;
+}
+
+.vert2 input {
+    display: block;
+    margin-left: 9%;
+    margin-top: 1em;
+    width: 30%;
+}
+
+#dugm input {
+    height: 3em;
+    font-weight: 900;
+    color: rgb(155, 0, 0);
+}
+
+fieldset.prvi legend,
+fieldset.drugi legend {
+    font-weight: bold;
+    color: rgb(155, 0, 0);
+}
