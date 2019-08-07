@@ -1,0 +1,65 @@
+.pac {
+    width: 100%;
+    margin: 0;
+}
+
+.pac tr {
+    background-color: #ffffff;
+}
+/*
+.pac tr:last-child {
+    background-color: #6c7ae0;
+}
+*/
+
+.pac td {
+    font-family: Poppins-Regular;
+    font-size: 15px;
+    color: #666666;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.pac th {
+    font-family: Poppins-Regular;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 19px 0 19px 10px;
+    text-align: center;
+}
+
+.pac td:nth-child(1), .pac td:nth-child(2) {
+    width: 220px;
+}
+
+.pac td:nth-child(3), .pac td:nth-child(4) {
+    width: 80px;
+}
+
+.pac tr:nth-child(2n) {
+    background-color: #f2ccff;
+}
+
+.pac tr:nth-child(2n+1) {
+    background-color: #ffe6e6;
+}
+
+.pac tr:first-child {
+    color: #ffffff;
+    background-color: #6c7ae0;
+}
+
+.pac tr:hover {
+    background-color: #ececff;
+    cursor: pointer;
+}
+
+/* .pac td:nth-child(3)::after {
+    content: " (cm)";
+}
+
+.pac td:nth-child(4)::after {
+    content: " (kg)";
+} */
