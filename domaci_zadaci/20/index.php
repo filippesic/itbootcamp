@@ -52,7 +52,7 @@
         echo "</table>";
     }
 
-    echo "<h2>Svi najbolje rangirani filmovi sortirani po naslovu</h2>";
+    echo "<h2>Svi najbolje rangirani filmovi prikazani abecedno po nazivu</h2>";
 
 
     $sql = "SELECT * FROM filmovi ORDER BY ocena DESC, naslov ASC;";
@@ -82,12 +82,12 @@
         echo "</table>";
     }
 
-    echo "<h2>Svaki zanr po jedna tabela</h2>";
+    echo "<h2>Svaki zanr po jedna tabela sa svim informacijama</h2>";
 
 
     $sql = "SELECT DISTINCT zanr FROM filmovi ORDER BY naslov ASC;";
     $result = mysqli_query($conn, $sql);
-    while($red = mysqli_fetch_assoc($result)) {
+    while ($red = mysqli_fetch_assoc($result)) {
 
         $zanr = $red["zanr"];
         echo "Filmovi ciji zanr je zanr: $zanr";
@@ -104,7 +104,7 @@
         echo "<th>Ocena</th>";
         echo "</tr>";
 
-        while($red1 = mysqli_fetch_assoc($result1)) {
+        while ($red1 = mysqli_fetch_assoc($result1)) {
             echo "<tr>";
             echo "<td>" . $red1["naslov"] . "</td>";
             echo "<td>" . $red1["reziser"] . "</td>";
