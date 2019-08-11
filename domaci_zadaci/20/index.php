@@ -55,7 +55,9 @@
     echo "<h2>Svi najbolje rangirani filmovi prikazani abecedno po nazivu</h2>";
 
 
-    $sql = "SELECT * FROM filmovi ORDER BY ocena DESC, naslov ASC;";
+    $sql = "SELECT * FROM filmovi
+    WHERE ocena = (SELECT MAX(ocena) FROM filmovi)
+    ORDER BY ocena DESC, naslov ASC;";
     $result = mysqli_query($conn, $sql);
 
     if (mysqli_num_rows($result) == 0) {
